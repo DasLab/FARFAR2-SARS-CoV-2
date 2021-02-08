@@ -6,7 +6,9 @@ We've organized the simulations we ran into directories according to the genomic
 
 As discussed in our manuscript, we ran several very large scale simulations (generating 500,000-4,000,000 models!) on the Open Science Grid, allowing us to sample some new structures very extensively. We organized these runs into the above system, but we prefixed all of the folders connected to Open Science grid runs with `osg_`. Similarly, we have revised some of our secondary structure predictions. For example, we now are interested in a combination of different secondary structures for the frameshift element (FSE), and we believe a shorter 5′ UTR SL4 and a longer 5′ UTR SL8 are more accurate models. Accordingly, we have renamed some existing folders to have the suffix `_old` as these models, while still valid, reflect secondary structure assumptions that are not current.
 
-Finally, we have many collections of OSG models that compare different sets of secondary structure assumptions to each other. These simulations have infixes indicating the affiliated lab whose data inspired the predictions, discussed more in the manuscript.
+We have many collections of OSG models that compare different sets of secondary structure assumptions to each other. These simulations have infixes indicating the affiliated lab whose data inspired the predictions, discussed more in the manuscript.
+
+Finally, we include pocket predictions from fpocket for the model sets here in the pocket_predictions folder. The pockets are represented in each PDB file by cluster of atoms with residue name STP and residue number identifying to which pocket they belong.
 
 # How can I use this repository?
 However you want! Of course, our most urgent hope is that these models will be useful to drug development against SARS-CoV-2. But if you are training a new RNA scoring function (...which itself may someday be useful against new viral pandemics), please make use of these models. To benchmark computational methods for RNA-targeted drug discovery, you may wish to look at the models in [FARFAR2-Apo-Riboswitch](https://github.com/DasLab/FARFAR2-Apo-Riboswitch).
