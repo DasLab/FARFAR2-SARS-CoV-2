@@ -8,7 +8,7 @@ As discussed in our manuscript, we ran several very large scale simulations (gen
 
 We have many collections of OSG models that compare different sets of secondary structure assumptions to each other. These simulations have infixes indicating the affiliated lab whose data inspired the predictions, discussed more in the manuscript.
 
-Finally, we include pocket predictions from fpocket for the model sets here in the pocket_predictions folder. The pockets are represented in each PDB file by cluster of atoms with residue name STP and residue number identifying to which pocket they belong.
+Finally, we include pocket predictions from fpocket for the model sets here in the pocket_predictions folder. The pockets are represented in each PDB file by clusters of atoms with residue name STP and residue number identifying the pocket to which they belong.
 
 # How can I use this repository?
 However you want! Of course, our most urgent hope is that these models will be useful to drug development against SARS-CoV-2. But if you are training a new RNA scoring function (...which itself may someday be useful against new viral pandemics), please make use of these models. To benchmark computational methods for RNA-targeted drug discovery, you may wish to look at the models in [FARFAR2-Apo-Riboswitch](https://github.com/DasLab/FARFAR2-Apo-Riboswitch).
